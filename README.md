@@ -1,1 +1,2 @@
-### Affordable hotel in St. Petersburg
+# Affordable hotel in St. Petersburg
+
