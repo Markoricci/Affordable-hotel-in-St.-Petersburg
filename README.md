@@ -5,7 +5,7 @@ Team:
 
 - MarkoRicci - Team Lead
 - AntonPopov - Maneger Product
-3. 3azil - Code Writer
-4. Demyan - Website Layout
-5. Platon - Designer
+- 3azil - Code Writer
+- Demyan - Website Layout
+- Platon - Designer
 
