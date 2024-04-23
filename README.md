@@ -3,9 +3,9 @@ Web project about an affordable hotel option in the city of white nights.
 
 Team:
 
-MarkoRicci - Team Lead
-AntonPopov - Maneger Product
-3azil - Code Writer
-Demyan - Website Layout
-Platon - Designer
+1. MarkoRicci - Team Lead
+2. AntonPopov - Maneger Product
+3. 3azil - Code Writer
+4. Demyan - Website Layout
+5. Platon - Designer
 
