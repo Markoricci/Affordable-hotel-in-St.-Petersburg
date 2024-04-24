@@ -11,7 +11,7 @@ Team:
 
 <h1>
       Pet project Baggins HOTEL!
-    <img src=""  width="40" height="40"/>
+    <img src="https://github.com/Markoricci/Affordable-hotel-in-St.-Petersburg/blob/images/logoBag.jpg?raw=true"  width="40" height="40"/>
   </h1>
   
  <div>
