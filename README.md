@@ -15,5 +15,5 @@ Team:
   </h1>
   
  <div>
-    <img src="https://github.com/Markoricci/Affordable-hotel-in-St.-Petersburg/blob/images/logoBag.jpg" alt="some nice gif" width="800" height="450"/>
+    <img src="https://avatars.mds.yandex.net/get-altay/10700016/2a0000018a323abeb8adac3f41fe1bafd343/XXXL" width="800" height="450"/>
   </div>
