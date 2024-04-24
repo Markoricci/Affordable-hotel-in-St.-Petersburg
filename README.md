@@ -9,3 +9,7 @@ Team:
 - Demyan - Website Layout
 - Platon - Designer
 
+<h1>
+      Pet project Baggins HOTEL!
+    <img src="https://avatars.mds.yandex.net/get-altay/10700016/2a0000018a323abeb8adac3f41fe1bafd343/XXXL" alt="Sun Behind Rain Cloud" width="40" height="40"/>
+  </h1>
