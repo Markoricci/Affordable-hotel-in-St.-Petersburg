@@ -12,8 +12,9 @@ Web project about an affordable hotel option in the city of white nights.
 🌍  Team based in Saint-Petersburg
 
 <h1>
+  
       Pet project Baggins HOTEL!
-    <img src="https://github.com/Markoricci/Affordable-hotel-in-St.-Petersburg/blob/images/logoBag.jpg?raw=true"  width="40" height="40"/>
+    
   </h1>
   
  <div>
