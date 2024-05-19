@@ -15,4 +15,546 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet">
 
-    
+    <!-- ссs сылки-->
+</head>
+
+<body>
+
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="canvas-open">
+        <i class="icon_menu"></i>
+    </div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <i class="icon_close"></i>
+        </div>
+        <div class="search-icon  search-switch">
+            <i class="icon_search"></i>
+        </div>
+        <div class="header-configure-area">
+            <a href="./rooms.html" class="bk-btn">Забронировать</a>
+        </div>
+        <nav class="mainmenu mobile-menu">
+            <ul>
+                <li class="active"><a href="./index.html">Главная</a></li>
+                <li><a href="./rooms.html">Номера</a></li>
+                <li><a href="./about-us.html">О нас</a></li>
+                <!-- <li><a href="./blog.html">Новости</a></li> -->
+                <li><a href="./contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="top-social">
+            <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-tripadvisor"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a> -->
+        </div>
+        <ul class="top-widget">
+            <li><i class="fa fa-phone"></i> 8(950)006-93-95</li>
+            <li><i class="fa fa-envelope"></i>Baggins_Hotel@gmail.com</li>
+            <li><a href="https://t.me/baggins1hotel">Telegram</a></li>
+        </ul>
+    </div>
+
+    <header class="header-section">
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="tn-left">
+                            <li><i class="fa fa-phone"></i> 8(950)006-93-95</li>
+                            <li><i class="fa fa-envelope"></i>Baggins_Hotel@gmail.com</li>
+                            <li><a href="https://t.me/baggins1hotel" target="_blank">Telegram</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tn-right">
+                            <div class="top-social">
+                                <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-tripadvisor"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a> -->
+                            </div>
+                            <a href="./rooms.html" class="bk-btn">Забронировать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="./index.html">
+                                 <img src="./img/logo-up.png" alt="">  <!-- ЛОГО  ВСТАВИТЬ НЕ ЗАБЫТЬ  logo-->
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="nav-menu">
+                            <nav class="mainmenu">
+                                <ul>
+                                    <li class="active"><a href="./index.html">Главная</a></li>
+                                    <li><a href="./rooms.html">Номера</a></li>
+                                    <li><a href="./about-us.html">О нас</a></li>
+                                    <!-- <li><a href="./blog.html">Новости</a></li> -->
+                                    <li><a href="./contact.html">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero-text">
+                        <h1>Отель Baggins</h1>
+                        <p>Лучший отель для бронирования недорогих молодежных номеров в центре города.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
+                    <div class="booking-form">
+                        <h3>Забронировать</h3>
+                        <form action="./rooms.html">
+                            <div class="check-date">
+                                <label for="date-in">Заезд:</label>
+                                <input type="text" class="date-input" id="date-in">
+                                <i class="icon_calendar"></i>
+                            </div>
+                            <div class="check-date">
+                                <label for="date-out">Выезд:</label>
+                                <input type="text" class="date-input" id="date-out">
+                                <i class="icon_calendar"></i>
+                            </div>
+                            <div class="select-option">
+                                <label for="guest">Гости:</label>
+                                <select id="guest">
+                                    <option value="">1 взрослый</option>
+                                    <option value="">2 взрослых</option>
+                                </select>
+                            </div>
+                            <div class="select-option">
+                                <label for="room">Комната:</label>
+                                <select id="room">
+                                    <option value="">1-Комнатный</option>
+                                    <option value="">2-Комнатный</option>
+                                </select>
+                            </div>
+                            <button type="submit">Проверить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-6.jpg"></div>      <!-- СЛАЙДЕР -->
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-4.jpg"></div>      <!-- СЛАЙДЕР -->
+             <div class="hs-item set-bg" data-setbg="img/hero/hero-8.jpg"></div>     <!-- СЛАЙДЕР -->
+        </div>
+    </section>
+
+    <section class="aboutus-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <div class="section-title">
+                            <span>О нас</span>
+                            <h2>Лучший отель <br />С видом на реку Неву</h2>
+                        </div>
+                        <p class="f-para">Таврический сад. Памятник садово-паркового искусства в центральной части Санкт-Петербурга. Площадь Таврического сада составляет 21,1 гектар.</p>
+                        <p class="s-para">Смольный собор. Православный храм в Центральном районе Санкт-Петербурга. Входит в состав архитектурного ансамбля Смольного монастыря.</p>
+                        <!-- <a href="./about-us.html" class="primary-btn about-btn">Больше информации</a> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="img/about/tavr.jpg" alt="">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="img/about/smol.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Чем мы занимаемся</span>
+                        <h2>Откройте для себя услуги отеля</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-036-parking"></i>
+                        <h4>Достопримечательности</h4>
+                        <p>Наш отель расположен в непосредственной близости от множества достопримечательностей, включая музеи, театры, рестораны и парки, что делает его идеальным местом для тех, кто хочет насладиться богатой культурной и развлекательной программой.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-033-dinner"></i>
+                        <h4>Катание на Катерах</h4>
+                        <p>Наслаждаетесь красивыми видами и чистыми водами реки Невы, испытать адреналин и создать яркие впечатления во время вашего пребывания в отеле.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-026-bed"></i>
+                        <h4>Няня</h4>
+                        <p>Наша услуга няни в отеле предоставляет гостям возможность безопасно и удобно оставить своих детей под присмотром квалифицированных профессионалов, пока они наслаждаются своим отдыхом в нашем отеле.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-024-towel"></i>
+                        <h4>Прачечная</h4>
+                        <p>Наша прачечная в отеле предлагает гостям быстрое и качественное обслуживание стирки и глажки. Вам не придется беспокоиться о грязных вещах во время путешествия.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-044-clock-1"></i>
+                        <h4>Стойка Регистрации</h4>
+                        <p>Гости могут зарегистрироваться, получить ключи от номера, задать вопросы и получить информацию о различных услугах отеля</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-012-cocktail"></i>
+                        <h4>Бар & Напитки</h4>
+                        <p>Бар в нашем отеле - идеальное место для отдыха и релаксации. Здесь вы сможете насладиться коктейлями и закусками в приятной атмосфере.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hp-room-section">
+        <div class="container-fluid">
+            <div class="hp-room-items">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/premium-glav.jpg">
+                            <div class="hr-text">
+                                <h3>Номер "Премиум"</h3>
+                                <h2>16 000₽<span>/За ночь</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Размер:</td>
+                                        <td>24 м²</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Вместимость:</td>
+                                        <td>Максимум человек 6</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Кровать:</td>
+                                        <td>3 Двуспальные кровать</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="r-o">Услуги:</td>
+                                        <td>Wi-fi, Джакузи, Лоджия, 2-разовое питание...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="./rooms.html" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/lacheri-glav.jpg">
+                            <div class="hr-text">
+                                <h3>Лакшери Номер</h3>
+                                <h2>14 000₽<span>/За ночь</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Размер:</td>
+                                            <td>18 м²</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Вместимость:</td>
+                                            <td>Максимум человек 4</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Кровать:</td>
+                                            <td>2 Двуспальные кровать</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Услуги:</td>
+                                            <td>Wi-fi, Джакузи, Лоджия, 2-разовое питание...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="./rooms.html" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/delux.jpg">
+                            <div class="hr-text">
+                                <h3>Делюкс Номер</h3>
+                                <h2>12 000₽<span>/За ночь</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Размер:</td>
+                                            <td>16 м²</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Вместимость:</td>
+                                            <td>Максимум человек 4</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Кровать:</td>
+                                            <td>2 Двуспальные кровать</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Услуги:</td>
+                                            <td>Wi-fi, Лоджия, 2-разовое питание...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="./rooms.html" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="hp-room-item set-bg" data-setbg="img/room/2-room.jpg">
+                            <div class="hr-text">
+                                <h3>Двухкомнатный Номер</h3>
+                                <h2>10 000₽<span>/За ночь</span></h2>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="r-o">Размер:</td>
+                                            <td>14 м²</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Вместимость:</td>
+                                            <td>Максимум человек 4</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Кровать:</td>
+                                            <td>2 Двуспальные кровать</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="r-o">Услуги:</td>
+                                            <td>Wi-fi, Выход на балкон, Ванная комната...</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="./rooms.html" class="primary-btn">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>ОТЗЫВЫ</span>
+                        <h2>Что говорят клиенты?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="testimonial-slider owl-carousel">
+                        <div class="ts-item">
+                            <p>После того, как строительный проект занял больше времени, чем ожидалось, мой муж, моя дочь и я нужно было место, чтобы остановиться на несколько ночей. Как большая семьямы искали доступные вариантов жилья, и нам очень нравится наш отдых в отеле.</p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5> - Александра Бибикова</h5>
+                            </div>
+                            <img src="img/testimonial-logo.png" alt="">
+                        </div>
+                        <div class="ts-item">
+                            <p>Отель Baggins как всегда на уровне. Местоположение удобное - достопримечательности, театры, рестораны в пешей доступности. Внутри отличный дизайн. Необычно и красиво смотрится внутренний двор, украшенный березками. Завтраки фирменные, редиссонские, очень вкусные. Можно даже не обедать. В номере тихо, чисто . Мягкие, комфортные матрасы и одеяла. Если есть какие-то вопросы, их быстро решают на ресепшене.</p>
+                            <div class="ti-author">
+                                <div class="rating">
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star"></i>
+                                    <i class="icon_star-half_alt"></i>
+                                </div>
+                                <h5> - Артем Баранов</h5>
+                            </div>
+                            <img src="img/testimonial-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <span>Новости Отеля</span>
+                        <h2>Блог Отеля & События</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="img/chok.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Будущие</span>
+                            <h4><a href="#">День Шоколада</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 11 Июля, 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="img/alli.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Будущие</span>
+                            <h4><a href="#">Алые Паруса</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 24 июня, 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item set-bg" data-setbg="img/rus.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Будущие</span>
+                            <h4><a href="#">Россия наша Родина</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 12 июня, 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="blog-item small-size set-bg" data-setbg="img/prizr.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Будущие</span>
+                            <h4><a href="#">Ночь призраков и приведений</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 1 июня, 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item small-size set-bg" data-setbg="img/9may.jpg">
+                        <div class="bi-text">
+                            <span class="b-tag">Будущие</span>
+                            <h4><a href="#">День Победы</a></h4>
+                            <div class="b-time"><i class="icon_clock_alt"></i> 9 мая, 2024</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-text">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="ft-about">
+                            <div class="logo">
+                                <a href="./index.html">
+                                     <img src="./img/logo-down.png" alt="">   <!--Нижнее лого footer-logo-->
+                                </a>
+                            </div>
+                            <p>Внимательный и радушный персонал <br /> Отель Baggins - ваше лучшее решение.</p>
+                            <div class="fa-social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-tripadvisor"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="ft-contact">
+                            <h6>Контакты</h6>
+                            <ul>
+                                <li>8 (950)006-93-95</li>
+                                <li>Baggins_Hotel@gmail.com</li>
+                                <li>Смоленска набережная, 12</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="ft-newslatter">
+                            <h6>Оповещения</h6>
+                            <p>Получать специальные предложения.</p>
+                            <form action="" class="fn-form">
+                                <input id="textInput" type="text" placeholder="Email">
+                                <button id="clearButton">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-option">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <ul>
+                            <li><a href="./contact.html">Контакты</a></li>
+                            <li><a href="./polzovatelskoe-soglashenie.docx">Условия</a></li>
+                            <li><a href="./politika_konfidencialnosti.docx">Конфиденциальность</a></li>
+                            <!-- <li><a href="#">Политика</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+
+  <!-- js сылки -->
+
+</body>
+
+</html>
