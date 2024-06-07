@@ -3,7 +3,7 @@ Web project about an affordable hotel option in the city of white nights.
 
 🙋‍♂️Team:
 
-- MarkoRicci - Team Lead
+- MarkoRicci - Team Lead (all roles)
 - AntonPopov - Manager Product
 - 3azil - Code Writer
 - Demyan - Website Layout
