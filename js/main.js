@@ -1,20 +1,17 @@
-
-"use strict";
-
 (function ($) {
-  /*Preloader*/
+  // Pre-load
   $(window).on("load", function () {
     $(".loader").fadeOut();
     $("#preloder").delay(200).fadeOut("slow");
   });
 
-  /*Background Set*/
+  // BackGround
   $(".set-bg").each(function () {
     var bg = $(this).data("setbg");
     $(this).css("background-image", "url(" + bg + ")");
   });
 
-  //Offcanvas Menu
+  // Offcanvas
   $(".canvas-open").on("click", function () {
     $(".offcanvas-menu-wrapper").addClass("show-offcanvas-menu-wrapper");
     $(".offcanvas-menu-overlay").addClass("active");
@@ -36,13 +33,13 @@
     });
   });
 
-  /*Navigation*/
+  // Navigation
   $(".mobile-menu").slicknav({
     prependTo: "#mobile-menu-wrap",
     allowParentLinks: true,
   });
 
-  /*Hero Slide*/
+  // Hero Slide
   $(".hero-slider").owlCarousel({
     loop: true,
     margin: 0,
@@ -56,7 +53,7 @@
     mouseDrag: false,
   });
 
-  /*Testimonial Slider*/
+  // Testimonial Slider
   $(".testimonial-slider").owlCarousel({
     items: 1,
     dots: false,
@@ -67,18 +64,18 @@
     navText: ["<i class='arrow_left'></i>", "<i class='arrow_right'></i>"],
   });
 
-  /*Magnific Popup*/
+  // Magnific Popup
   $(".video-popup").magnificPopup({
     type: "iframe",
   });
 
-  /*Date Picker*/
+  // Date Picker
   $(".date-input").datepicker({
     minDate: 0,
     dateFormat: "dd MM, yy",
   });
 
-  /*Nice Select*/
+  // Nice Select
   $("select").niceSelect();
 })(jQuery);
 
