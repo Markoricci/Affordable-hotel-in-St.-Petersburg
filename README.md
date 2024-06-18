@@ -1,5 +1,9 @@
 # Affordable hotel in St. Petersburg
 Web project about an affordable hotel option in the city of white nights.
+We are aiming for a large influx of guests from different cities of our country!
+After all, St. Petersburg is one of the most attractive in terms of culture and beauty!
+
+ You can test our project on GitHub Pages
 
 🙋‍♂️Team:
 
